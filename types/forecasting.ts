@@ -2,11 +2,15 @@
 
 export type ModelType = "arima" | "diffusion" | "ensemble" | "llm-trend" | "hybrid";
 
+
 export type ModelStatus = "ready" | "training" | "failed" | "deprecated";
+
 
 export type JobStatus = "pending" | "running" | "completed" | "failed" | "cancelled";
 
+
 export type ScenarioType = "conservative" | "baseline" | "optimistic" | "custom";
+
 
 export interface ModelCatalogItem {
   id: string;
@@ -313,6 +317,9 @@ export interface ScenarioBuilderState {
   comments: string;
 }
 
+
+
+
 export interface RunPanelState {
   selectedModel: string | null;
   selectedTechs: string[];
@@ -321,3 +328,4 @@ export interface RunPanelState {
   isRunning: boolean;
   currentJob: ForecastJob | null;
 }
+
