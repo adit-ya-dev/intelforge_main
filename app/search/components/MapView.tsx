@@ -12,6 +12,8 @@ interface MapViewProps {
   results: SearchResult[]
 }
 
+
+
 // Mock country coordinates
 const countryCoordinates: Record<string, { lat: number; lng: number }> = {
   "United States": { lat: 37.0902, lng: -95.7129 },
