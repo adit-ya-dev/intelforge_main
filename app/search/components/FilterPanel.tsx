@@ -20,6 +20,8 @@ interface FilterPanelProps {
   onApply: () => void
 }
 
+
+
 const domains = [
   "Quantum Computing",
   "Artificial Intelligence",
