@@ -63,6 +63,7 @@ export default function SearchPage() {
     console.log("Saving query:", query, filters)
   }
 
+  
   return (
     <div className="flex h-screen overflow-hidden">
       {/* Main Content */}
