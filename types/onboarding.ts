@@ -9,6 +9,9 @@ export interface OnboardingStep {
   order: number;
 }
 
+
+
+
 export interface OnboardingProgress {
   currentStep: number;
   totalSteps: number;
