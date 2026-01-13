@@ -5,6 +5,9 @@
 // SEARCH TYPES
 // ============================================
 
+
+
+
 export type SearchType = 'Patent' | 'Paper' | 'Company' | 'Report' | 'News'
 export type SearchMode = 'semantic' | 'keyword'
 export type SortOption = 'relevance' | 'date' | 'trl' | 'citations'
