@@ -18,6 +18,8 @@ import {
   ForecastResponse,
 } from "@/types/tech-detail";
 
+
+
 // Mock Technology Metadata
 export const mockTechMetadata: TechnologyMetadata = {
   id: "tech-001",
