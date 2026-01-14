@@ -2,6 +2,8 @@
 "use client"
 import { SearchResult } from "@/types/search"
 
+
+
 export const mockSearchResults: SearchResult[] = [
   {
     id: "1",
